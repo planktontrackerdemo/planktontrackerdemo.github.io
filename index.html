@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>BIOforIU - Plankton Tracker</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+	
+		.row.heading,
+		.row.video {
+			margin-top: 30px;
+		}
+		
+		.heading img.logo {
+			max-width: 100%;
+			max-height: 120px;
+		}
+		
+		video {
+			max-width: 100%;
+			max-height: 480px;
+		}
+		
+		video > h2 {
+			color: #cc0000;
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+		
+		.row.logos {
+			margin-bottom: 30px;
+		}
+		
+		.row.logos > .col-lg-3 {
+			margin-top: 30px;
+		}
+	
+	</style>
+	
+  </head>
+  <body>
+    <div class="container">
+	
+		<div class="row heading">
+			<div class="col-lg-12 text-center">
+				<img class="logo" src="img/plankton_tracker.png" alt="Plankton Tracker" />
+			</div>
+		</div>
+		
+		<div class="row video">
+			<div class="col-lg-12 text-center">
+				<video poster="mov/movie.jpg" controls autoplay>
+					<source src="mov/movie.m4v" type="video/mp4">
+					<source src="mov/movie.ogv" type="video/ogg">
+					<source src="mov/movie.webm" type="video/webm">
+					<h2>Your browser does not support the video tag.</h2>
+				</video> 
+			</div>
+		</div>
+				
+		<div class="row logos">
+			<div class="col-lg-3 text-center">
+				<img src="img/bioforiu.png" height="80" alt="BIOforIU" />
+			</div>
+			<div class="col-lg-3 text-center">
+				<img src="img/unisalento.png" height="80" alt="Università del Salento" />
+			</div>
+			<div class="col-lg-3 text-center">
+				<img src="img/infn.png" height="80" alt="Istituto Nazionale di Fisica Nucleare" />
+			</div>
+			<div class="col-lg-3 text-center">
+				<img src="img/dip_matematica_fisica.gif" height="80" alt="Dip. Matematica e Fisica - Unisalento" />
+			</div>
+		</div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
